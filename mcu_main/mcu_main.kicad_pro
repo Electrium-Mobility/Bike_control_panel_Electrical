@@ -612,6 +612,18 @@
     [
       "8c1e5247-e001-4f3c-b236-a22b9c821843",
       "Root"
+    ],
+    [
+      "832b2f07-429b-4c98-b10e-bc5206aa930b",
+      "ESP USB section"
+    ],
+    [
+      "c7ca5fc6-8763-43f9-a5ae-883667e04066",
+      "Pin breakout"
+    ],
+    [
+      "99f34187-d90f-426f-97fd-8e77ab00d577",
+      "Pin breakout1"
     ]
   ],
   "text_variables": {}
