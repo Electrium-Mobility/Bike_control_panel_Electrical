@@ -1241,6 +1241,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 96.52) (xy 121.92 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "295e9cc2-62be-47c9-8f45-463ab5b4c8c6")
+	)
+	(wire
+		(pts
 			(xy 165.1 88.9) (xy 165.1 91.44)
 		)
 		(stroke
@@ -1461,6 +1471,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 95.25) (xy 115.57 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d42758f-f5ab-4336-9910-75ad1f20556f")
+	)
+	(wire
+		(pts
 			(xy 147.32 96.52) (xy 139.7 96.52)
 		)
 		(stroke
@@ -1491,7 +1511,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 101.6) (xy 115.57 114.3)
+			(xy 115.57 105.41) (xy 115.57 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1511,7 +1531,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 101.6) (xy 121.92 114.3)
+			(xy 121.92 106.68) (xy 121.92 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1583,7 +1603,7 @@
 	)
 	(symbol
 		(lib_id "Custom_symbols:ESD_protection_TVS_RCLAMP0521P-N")
-		(at 115.57 96.52 270)
+		(at 115.57 100.33 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1591,7 +1611,7 @@
 		(dnp no)
 		(uuid "0bb28f9e-37f0-4f59-87f9-24ec7a48d1f2")
 		(property "Reference" "D2"
-			(at 116.586 97.79 90)
+			(at 116.586 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1600,7 +1620,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 119.38 97.79 90)
+			(at 119.38 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1608,8 +1628,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 115.57 96.52 0)
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 115.57 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1617,8 +1637,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 115.57 96.52 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304171630_BORN-RCLAMP0521P-N_C316043.pdf"
+			(at 115.57 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1627,7 +1647,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 96.52 0)
+			(at 115.57 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,7 +1808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-882"
 			(at 172.72 99.06 0)
 			(effects
 				(font
@@ -1797,7 +1817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304171630_BORN-RCLAMP0521P-N_C316043.pdf"
 			(at 172.72 99.06 0)
 			(effects
 				(font
@@ -1931,7 +1951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411211953_MDD-Microdiode-Semiconductor-B5819W_C64885.pdf"
 			(at 181.61 91.44 0)
 			(effects
 				(font
@@ -1966,6 +1986,75 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 130.81 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63a04c09-915d-4b80-a780-9faf02362443")
+		(property "Reference" "R1"
+			(at 131.826 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 132.334 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 129.032 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 130.81 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4c4e611f-30f4-499d-9466-fe4f889f2540")
+		)
+		(pin "1"
+			(uuid "4519c488-20bb-4d1b-bb44-5f76b6d6d2b4")
+		)
+		(instances
+			(project "mcu_main"
+				(path "/8c1e5247-e001-4f3c-b236-a22b9c821843/832b2f07-429b-4c98-b10e-bc5206aa930b"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 139.7 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1991,7 +2080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 137.922 107.95 90)
 			(effects
 				(font
@@ -2100,77 +2189,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 130.81 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "be571e60-801a-4764-bddb-4d53e710c0b6")
-		(property "Reference" "R1"
-			(at 131.826 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 132.08 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.032 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 130.81 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0f8b0a06-e52d-4fec-a53b-19a09bdf4db4")
-		)
-		(pin "1"
-			(uuid "be2491c4-3686-4601-828f-533bc392d349")
-		)
-		(instances
-			(project "mcu_main"
-				(path "/8c1e5247-e001-4f3c-b236-a22b9c821843/832b2f07-429b-4c98-b10e-bc5206aa930b"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Custom_symbols:ESD_protection_TVS_RCLAMP0521P-N")
-		(at 121.92 96.52 270)
+		(at 121.92 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2178,7 +2198,7 @@
 		(dnp no)
 		(uuid "c7cdd82d-c0b1-4932-9b64-b0af74de0c70")
 		(property "Reference" "D3"
-			(at 123.19 97.79 90)
+			(at 123.19 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2187,7 +2207,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 125.73 97.79 90)
+			(at 125.73 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2195,8 +2215,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 121.92 96.52 0)
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 121.92 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2204,8 +2224,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 121.92 96.52 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304171630_BORN-RCLAMP0521P-N_C316043.pdf"
+			(at 121.92 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2214,7 +2234,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 96.52 0)
+			(at 121.92 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2247,15 +2267,15 @@
 		(dnp no)
 		(uuid "ffa6f761-4bfc-4962-afba-3ac269b71153")
 		(property "Reference" "C3"
-			(at 190.5 106.934 90)
+			(at 186.182 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "C"
-			(at 188.722 106.934 90)
+		(property "Value" "10uF 25V"
+			(at 186.182 105.918 0)
 			(effects
 				(font
 					(size 1.27 1.27)
