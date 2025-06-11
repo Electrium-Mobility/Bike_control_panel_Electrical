@@ -571,6 +571,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -636,6 +642,10 @@
     [
       "99f34187-d90f-426f-97fd-8e77ab00d577",
       "SD card reader"
+    ],
+    [
+      "84a7e97c-eb3c-4143-a792-89101fc05321",
+      "Throttle and ebrake connectors"
     ]
   ],
   "text_variables": {}
