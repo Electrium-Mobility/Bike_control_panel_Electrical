@@ -2997,6 +2997,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 162.56) (xy 71.12 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3454590c-80a6-4f15-a68b-ecb5cf517023")
+	)
+	(wire
+		(pts
 			(xy 283.21 261.62) (xy 283.21 271.78)
 		)
 		(stroke
@@ -3227,6 +3237,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 154.94) (xy 71.12 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8792fb94-7b3a-45b8-afdb-534b85a8e799")
+	)
+	(wire
+		(pts
 			(xy 220.98 252.73) (xy 220.98 246.38)
 		)
 		(stroke
@@ -3297,6 +3317,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 160.02) (xy 71.12 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3707e0-fced-47ac-9c19-47699c1fc69c")
+	)
+	(wire
+		(pts
 			(xy 220.98 271.78) (xy 220.98 260.35)
 		)
 		(stroke
@@ -3307,13 +3337,23 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 137.16) (xy 172.72 137.16)
+			(xy 156.21 137.16) (xy 203.2 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9ea259f4-62fe-4d3c-9517-dbe2ee8c7093")
+	)
+	(wire
+		(pts
+			(xy 72.39 157.48) (xy 71.12 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc0e120-a12e-4074-b306-d93f6dea5bef")
 	)
 	(wire
 		(pts
@@ -3367,7 +3407,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 134.62) (xy 172.72 134.62)
+			(xy 156.21 134.62) (xy 203.2 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3871,6 +3911,28 @@
 			)
 		)
 	)
+	(global_label "FSPICS0"
+		(shape input)
+		(at 72.39 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31362344-a374-45f5-945a-ec36e35fef31")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.2371 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C_SCL"
 		(shape input)
 		(at 201.93 191.77 180)
@@ -3981,6 +4043,28 @@
 			)
 		)
 	)
+	(global_label "FSPIQ_MISO"
+		(shape input)
+		(at 72.39 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "680741c8-6cdd-41ce-a447-4296dc4786d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.4424 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C_SDA"
 		(shape input)
 		(at 201.93 189.23 180)
@@ -4016,6 +4100,28 @@
 		(uuid "9270af40-75d8-46d6-8ffd-8347880642df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.8047 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FSPICLK"
+		(shape input)
+		(at 72.39 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9cd9b8f9-9863-47cf-be35-944c28cd575d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.1162 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,6 +4188,28 @@
 		(uuid "c05ca0b0-c0f2-445d-8479-c6dbfd295409")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 125.8122 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FSPID_MOSI"
+		(shape input)
+		(at 72.39 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0ce1f2a-b59a-40ca-a03b-55f4f61fca6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.3819 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5579,7 +5707,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a6893bf9-dc9a-45da-9167-1a465488695b")
 		(property "Reference" "SW1"
 			(at 40.64 251.46 0)
@@ -6655,7 +6782,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ee682c9e-fcb1-41d9-bcbf-ae6930a591e8")
 		(property "Reference" "SW2"
 			(at 87.63 251.46 0)
@@ -6788,8 +6914,50 @@
 		)
 	)
 	(sheet
-		(at 172.72 128.27)
-		(size 17.78 15.24)
+		(at 48.26 170.18)
+		(size 22.86 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "35842aa2-a5d5-447e-a02a-0a0aaa25894f")
+		(property "Sheetname" "Display connector"
+			(at 48.26 169.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "display.kicad_sch"
+			(at 48.26 186.0046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mcu_main"
+				(path "/8c1e5247-e001-4f3c-b236-a22b9c821843"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 128.27)
+		(size 22.86 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6804,7 +6972,7 @@
 		)
 		(uuid "832b2f07-429b-4c98-b10e-bc5206aa930b")
 		(property "Sheetname" "ESP USB section"
-			(at 172.72 127.5584 0)
+			(at 203.2 127.5584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6813,7 +6981,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_c_resceptacle.kicad_sch"
-			(at 172.72 144.0946 0)
+			(at 203.2 144.0946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6822,7 +6990,7 @@
 			)
 		)
 		(pin "D+" output
-			(at 172.72 134.62 180)
+			(at 203.2 134.62 180)
 			(uuid "cb693e62-5e7c-40e4-8af6-4322e74f3c74")
 			(effects
 				(font
@@ -6832,7 +7000,7 @@
 			)
 		)
 		(pin "D-" output
-			(at 172.72 137.16 180)
+			(at 203.2 137.16 180)
 			(uuid "340ae350-f17a-43d7-9181-b56e14dd39cb")
 			(effects
 				(font
@@ -6892,8 +7060,8 @@
 		)
 	)
 	(sheet
-		(at 53.34 149.86)
-		(size 30.48 25.4)
+		(at 48.26 149.86)
+		(size 22.86 15.2399)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -6908,7 +7076,7 @@
 		)
 		(uuid "99f34187-d90f-426f-97fd-8e77ab00d577")
 		(property "Sheetname" "SD card reader"
-			(at 53.34 149.1484 0)
+			(at 48.26 149.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6917,12 +7085,52 @@
 			)
 		)
 		(property "Sheetfile" "sd_card.kicad_sch"
-			(at 53.34 175.8446 0)
+			(at 48.26 165.6845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "SD_FSPID_MOSI" input
+			(at 71.12 157.48 0)
+			(uuid "b444196b-5d51-4536-b402-f7218d03824f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD_FSPI_CLK" input
+			(at 71.12 160.02 0)
+			(uuid "8d88dcb7-6c57-4bcc-8963-2e678b343019")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD_FSPICS" input
+			(at 71.12 162.56 0)
+			(uuid "a0abae95-04dd-4628-ac90-252393eb37ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD_FSPIQ_MISO" input
+			(at 71.12 154.94 0)
+			(uuid "885edaa3-8bc0-4a1b-addc-1c02bfc99dac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -6977,7 +7185,7 @@
 	)
 	(sheet
 		(at 203.2 157.48)
-		(size 17.78 15.24)
+		(size 22.86 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7059,7 +7267,7 @@
 	)
 	(sheet
 		(at 203.2 179.07)
-		(size 17.78 15.24)
+		(size 22.86 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
