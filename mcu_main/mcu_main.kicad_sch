@@ -3085,16 +3085,6 @@
 	)
 	(text "Input Voltage Regulation (5 -> 3.3v)"
 		(exclude_from_sim no)
-		(at 234.696 233.934 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "55a1909e-d26a-4f4d-ae77-bda112207e29")
-	)
-	(text "Input Voltage Regulation (5 -> 3.3v)"
-		(exclude_from_sim no)
 		(at 235.712 200.406 0)
 		(effects
 			(font
@@ -5374,67 +5364,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 12733b9b-c0a7-41a7-aadf-6eeea12637f4)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 139.7 217.17) (xy 139.7 250.19) (xy 186.69 250.19) (xy 186.69 217.17)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 12e86a04-6303-41f7-b697-03140617ec82)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 217.17 201.93) (xy 217.17 250.19) (xy 298.45 250.19) (xy 298.45 201.93)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 414d966d-382b-4b4b-bb56-65c378da45a3)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 190.5 172.72) (xy 173.99 172.72) (xy 173.9739 162.2611) (xy 190.4839 162.2611)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 632e68b3-f3a4-4e43-a7e7-e5adb36700b8)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 300.99 201.93) (xy 300.99 250.19) (xy 382.27 250.19) (xy 382.27 201.93)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid af568578-2383-4cea-8de4-df4c0e426d0a)
+			(uuid 1b9c13cd-ee14-473c-be85-0f2b3c27bbab)
 		)
 	)
 	(rule_area
@@ -5449,7 +5379,67 @@
 			(fill
 				(type none)
 			)
-			(uuid b03e0506-7143-4467-b5a6-c5b2daf65f10)
+			(uuid 36c52c62-6c31-40f2-bfe7-63cfc5e2cf74)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 217.17 201.93) (xy 217.17 250.19) (xy 298.45 250.19) (xy 298.45 201.93)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 3a20d8f6-4ef5-46f0-9eda-071a4333bb3e)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 190.5 172.72) (xy 173.99 172.72) (xy 173.9739 162.2611) (xy 190.4839 162.2611)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 42fd2529-1b39-4c1c-8da8-6c8825918f62)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 139.7 217.17) (xy 139.7 250.19) (xy 186.69 250.19) (xy 186.69 217.17)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 8e91e136-3602-4636-bd4e-d3470f21ce0b)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 300.99 201.93) (xy 300.99 250.19) (xy 382.27 250.19) (xy 382.27 201.93)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid a361fbe4-b36f-4370-a705-f4f6f8fe8944)
 		)
 	)
 	(rule_area
@@ -5464,7 +5454,7 @@
 			(fill
 				(type none)
 			)
-			(uuid f697a853-1a70-4a3b-813f-316707403581)
+			(uuid a582d8de-749b-40c4-bc78-4e13c1aa53d0)
 		)
 	)
 	(symbol
