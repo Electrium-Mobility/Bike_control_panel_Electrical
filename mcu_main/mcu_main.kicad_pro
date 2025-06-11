@@ -646,6 +646,14 @@
     [
       "84a7e97c-eb3c-4143-a792-89101fc05321",
       "Throttle and ebrake connectors"
+    ],
+    [
+      "dcecfaf0-7505-422b-87cc-39a278c09858",
+      "Time of flight sensor"
+    ],
+    [
+      "e52fc5b0-6017-41a5-8bfc-2a60b36b3279",
+      "IMU connectors"
     ]
   ],
   "text_variables": {}
