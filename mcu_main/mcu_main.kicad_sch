@@ -3093,6 +3093,16 @@
 		)
 		(uuid "55a1909e-d26a-4f4d-ae77-bda112207e29")
 	)
+	(text "Input Voltage Regulation (5 -> 3.3v)"
+		(exclude_from_sim no)
+		(at 235.712 200.406 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "73cfb8ef-1ba3-4048-86c1-766670686b89")
+	)
 	(text "I2C devices"
 		(exclude_from_sim no)
 		(at 179.324 174.244 0)
