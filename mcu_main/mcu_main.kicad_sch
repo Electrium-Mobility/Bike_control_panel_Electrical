@@ -3017,6 +3017,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 137.16) (xy 203.2 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35547e94-6a3c-448e-99d3-8335303ceb24")
+	)
+	(wire
+		(pts
 			(xy 196.85 246.38) (xy 199.39 246.38)
 		)
 		(stroke
@@ -3337,16 +3347,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 137.16) (xy 203.2 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ea259f4-62fe-4d3c-9517-dbe2ee8c7093")
-	)
-	(wire
-		(pts
 			(xy 72.39 157.48) (xy 71.12 157.48)
 		)
 		(stroke
@@ -3354,6 +3354,16 @@
 			(type default)
 		)
 		(uuid "9fc0e120-a12e-4074-b306-d93f6dea5bef")
+	)
+	(wire
+		(pts
+			(xy 156.21 134.62) (xy 203.2 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe2b681-eb24-4bca-b9ee-cd1099aefd98")
 	)
 	(wire
 		(pts
@@ -3404,16 +3414,6 @@
 			(type default)
 		)
 		(uuid "aebd2eb6-fc24-4183-b4ff-c06dfaec1cbd")
-	)
-	(wire
-		(pts
-			(xy 156.21 134.62) (xy 203.2 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3c99209-53c0-4b79-9113-708094cdf025")
 	)
 	(wire
 		(pts
@@ -4310,7 +4310,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 187.006 172.7397) (xy 173.99 172.72) (xy 173.9833 164.8667) (xy 186.9993 164.8864)
+				(xy 107.9651 165.0633) (xy 91.4551 165.0633) (xy 91.4568 152.4791) (xy 107.9668 152.4791)
 			)
 			(stroke
 				(width 0)
@@ -4319,22 +4319,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 03bec555-0902-4c8e-8043-3622cee8dc5d)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 60.96 248.92) (xy 60.96 281.94) (xy 105.41 281.94) (xy 105.41 248.92)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 08ccc589-83eb-4cc7-840d-4bfdc3fcf26d)
+			(uuid 122834c5-292b-4952-972d-a711f0ab310d)
 		)
 	)
 	(rule_area
@@ -4349,7 +4334,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 723ff1b4-f891-46de-9684-1566845fd87b)
+			(uuid 135c98fd-d26c-44cd-90fa-5040e7a5c304)
 		)
 	)
 	(rule_area
@@ -4364,37 +4349,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 837f1fd8-6651-4a29-b539-6c6d95aef0bc)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 107.9651 165.0633) (xy 91.4551 165.0633) (xy 91.4568 152.4791) (xy 107.9668 152.4791)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 8b0eff60-1487-4b38-98b3-7944c8205e68)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 15.24 248.92) (xy 15.24 281.94) (xy 58.42 281.94) (xy 58.42 248.92)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid dc699b36-df97-4af6-905b-f140ff040999)
+			(uuid 21ecfeb8-f5f6-4571-bc81-87e614f92406)
 		)
 	)
 	(rule_area
@@ -4409,7 +4364,52 @@
 			(fill
 				(type none)
 			)
-			(uuid fbe2ef88-9579-4917-9509-c4147be68718)
+			(uuid 8dfcc196-107d-4828-bf89-78a529a738b4)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 60.96 248.92) (xy 60.96 281.94) (xy 105.41 281.94) (xy 105.41 248.92)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid bfbf1953-22e6-4d90-95c6-9538151ff04f)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 187.006 172.7397) (xy 173.99 172.72) (xy 173.9833 164.8667) (xy 186.9993 164.8864)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid ce7bddef-e4a9-4f94-8061-be2f40f7f1b6)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 15.24 248.92) (xy 15.24 281.94) (xy 58.42 281.94) (xy 58.42 248.92)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid fcfebd2c-27e6-434c-8831-a9577924b211)
 		)
 	)
 	(symbol
@@ -6914,7 +6914,7 @@
 		)
 	)
 	(sheet
-		(at 48.26 170.18)
+		(at 48.26 171.45)
 		(size 22.86 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6930,7 +6930,7 @@
 		)
 		(uuid "35842aa2-a5d5-447e-a02a-0a0aaa25894f")
 		(property "Sheetname" "Display connector"
-			(at 48.26 169.4684 0)
+			(at 48.26 170.7384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6939,7 +6939,7 @@
 			)
 		)
 		(property "Sheetfile" "display.kicad_sch"
-			(at 48.26 186.0046 0)
+			(at 48.26 187.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6956,7 +6956,7 @@
 		)
 	)
 	(sheet
-		(at 203.2 128.27)
+		(at 203.2 124.46)
 		(size 22.86 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6972,7 +6972,7 @@
 		)
 		(uuid "832b2f07-429b-4c98-b10e-bc5206aa930b")
 		(property "Sheetname" "ESP USB section"
-			(at 203.2 127.5584 0)
+			(at 203.2 123.7484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6981,7 +6981,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_c_resceptacle.kicad_sch"
-			(at 203.2 144.0946 0)
+			(at 203.2 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6989,9 +6989,9 @@
 				(justify left top)
 			)
 		)
-		(pin "D+" output
-			(at 203.2 134.62 180)
-			(uuid "cb693e62-5e7c-40e4-8af6-4322e74f3c74")
+		(pin "D+" input
+			(at 203.2 137.16 180)
+			(uuid "62a5af17-39b2-48b4-841a-8b4355d48594")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6999,9 +6999,9 @@
 				(justify left)
 			)
 		)
-		(pin "D-" output
-			(at 203.2 137.16 180)
-			(uuid "340ae350-f17a-43d7-9181-b56e14dd39cb")
+		(pin "D-" input
+			(at 203.2 134.62 180)
+			(uuid "97442084-e097-4e8e-9cc1-cbb4e9063aa9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7018,8 +7018,8 @@
 		)
 	)
 	(sheet
-		(at 53.34 81.28)
-		(size 30.48 27.94)
+		(at 48.26 106.68)
+		(size 22.86 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7034,7 +7034,7 @@
 		)
 		(uuid "84a7e97c-eb3c-4143-a792-89101fc05321")
 		(property "Sheetname" "Throttle and ebrake connectors"
-			(at 53.34 80.5684 0)
+			(at 48.26 105.9684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7043,12 +7043,32 @@
 			)
 		)
 		(property "Sheetfile" "throttle_ebrake.kicad_sch"
-			(at 53.34 109.8046 0)
+			(at 48.26 122.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "ebrake_sig" input
+			(at 71.12 119.38 0)
+			(uuid "562aa108-c9b3-485a-9447-3a85b321b01b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "throttle_sig" input
+			(at 71.12 116.84 0)
+			(uuid "23398002-8559-462d-b607-767930f2c961")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -7142,8 +7162,8 @@
 		)
 	)
 	(sheet
-		(at 53.34 116.84)
-		(size 30.48 25.4)
+		(at 48.26 128.27)
+		(size 22.86 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7158,7 +7178,7 @@
 		)
 		(uuid "c7ca5fc6-8763-43f9-a5ae-883667e04066")
 		(property "Sheetname" "Pin breakout"
-			(at 53.34 116.1284 0)
+			(at 48.26 127.5584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7167,7 +7187,7 @@
 			)
 		)
 		(property "Sheetfile" "pinout.kicad_sch"
-			(at 53.34 142.8246 0)
+			(at 48.26 144.0946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
