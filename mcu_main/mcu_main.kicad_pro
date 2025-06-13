@@ -658,6 +658,10 @@
     [
       "35842aa2-a5d5-447e-a02a-0a0aaa25894f",
       "Display connector"
+    ],
+    [
+      "9d9b046b-52e3-4812-87dd-5f29f17954ff",
+      "PAS connector"
     ]
   ],
   "text_variables": {}
