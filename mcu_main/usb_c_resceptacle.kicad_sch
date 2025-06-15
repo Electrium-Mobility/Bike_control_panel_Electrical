@@ -1146,12 +1146,6 @@
 		(uuid "588042dc-ae90-423d-90fb-96b749ceedef")
 	)
 	(junction
-		(at 115.57 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b5af10f-4635-4c5c-bdd2-5f4818f9680c")
-	)
-	(junction
 		(at 121.92 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1221,7 +1215,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 91.44) (xy 121.92 91.44)
+			(xy 109.22 91.44) (xy 121.92 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1318,16 +1312,6 @@
 			(type default)
 		)
 		(uuid "55d7ddb8-702e-4a1f-9fe4-964d209b4793")
-	)
-	(wire
-		(pts
-			(xy 109.22 91.44) (xy 115.57 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5787be1a-99d4-43c0-93ba-fe5fa13267e1")
 	)
 	(wire
 		(pts
@@ -1471,7 +1455,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 95.25) (xy 115.57 91.44)
+			(xy 115.57 88.9) (xy 115.57 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1568,16 +1552,6 @@
 			(type default)
 		)
 		(uuid "fba65e39-facd-4ca8-a01f-293970597555")
-	)
-	(wire
-		(pts
-			(xy 115.57 91.44) (xy 115.57 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd5ab46c-5514-47fb-9bb2-dd2797fa1d61")
 	)
 	(hierarchical_label "D+"
 		(shape input)
