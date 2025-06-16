@@ -1208,7 +1208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2186318b-aef4-469c-9935-d7204a637e5e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR06"
 			(at 116.84 73.66 0)
 			(effects
 				(font
@@ -1258,7 +1258,7 @@
 		(instances
 			(project "mcu_main"
 				(path "/8c1e5247-e001-4f3c-b236-a22b9c821843/99f34187-d90f-426f-97fd-8e77ab00d577"
-					(reference "#PWR?")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -1274,7 +1274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "311ffc14-7c8c-4ebb-a1a9-2b01ed3bee2a")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR015"
 			(at 139.7 73.66 0)
 			(effects
 				(font
@@ -1324,7 +1324,7 @@
 		(instances
 			(project "mcu_main"
 				(path "/8c1e5247-e001-4f3c-b236-a22b9c821843/99f34187-d90f-426f-97fd-8e77ab00d577"
-					(reference "#PWR?")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -1638,7 +1638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c17d1e42-6424-4e63-a065-5c66116f690b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR07"
 			(at 116.84 129.54 0)
 			(effects
 				(font
@@ -1688,7 +1688,7 @@
 		(instances
 			(project "mcu_main"
 				(path "/8c1e5247-e001-4f3c-b236-a22b9c821843/99f34187-d90f-426f-97fd-8e77ab00d577"
-					(reference "#PWR?")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
