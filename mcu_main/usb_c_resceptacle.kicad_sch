@@ -107,356 +107,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Custom_symbols:USB_C_connector_C165948"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U1"
-				(at 0 13.462 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410010003_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "USB_C_connector_C165948_1_1"
-				(rectangle
-					(start -6.35 11.43)
-					(end 6.35 -11.43)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin bidirectional line
-					(at -8.89 8.89 0)
-					(length 2.54)
-					(name "CC1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -8.89 6.35 0)
-					(length 2.54)
-					(name "DP1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -8.89 3.81 0)
-					(length 2.54)
-					(name "DN1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -8.89 1.27 0)
-					(length 2.54)
-					(name "SBU1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -8.89 -1.27 0)
-					(length 2.54)
-					(name "CC2"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -8.89 -3.81 0)
-					(length 2.54)
-					(name "DP2"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -8.89 -6.35 0)
-					(length 2.54)
-					(name "DN2"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -8.89 -8.89 0)
-					(length 2.54)
-					(name "SBU2"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "B8"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 8.89 8.89 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "A4\n"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 8.89 6.35 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "B9"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 8.89 3.81 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 8.89 1.27 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "B4"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 8.89 -1.27 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "A1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 8.89 -3.81 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "B12"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 8.89 -6.35 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "A12"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 8.89 -8.89 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-					(number "B1"
-						(effects
-							(font
-								(size 0.762 0.762)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -870,6 +520,356 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "USB_C_connector_C165948_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U1"
+				(at 0 13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410010003_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB_C_connector_C165948_1_1_1"
+				(rectangle
+					(start -6.35 11.43)
+					(end 6.35 -11.43)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 8.89 0)
+					(length 2.54)
+					(name "CC1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 6.35 0)
+					(length 2.54)
+					(name "DP1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 3.81 0)
+					(length 2.54)
+					(name "DN1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "SBU1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name "CC2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 -3.81 0)
+					(length 2.54)
+					(name "DP2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 -6.35 0)
+					(length 2.54)
+					(name "DN2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 -8.89 0)
+					(length 2.54)
+					(name "SBU2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 8.89 8.89 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 8.89 6.35 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 8.89 3.81 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 8.89 1.27 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 -1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 -3.81 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 -6.35 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 8.89 -8.89 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -1098,12 +1098,6 @@
 		)
 	)
 	(junction
-		(at 165.1 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12d3424f-6e72-473a-839b-56f76f59c051")
-	)
-	(junction
 		(at 165.1 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1128,22 +1122,34 @@
 		(uuid "1e780f33-db8b-4bf2-b29f-0e56b8ab2e36")
 	)
 	(junction
+		(at 144.78 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bc5f0f1-2a01-465e-956b-772764f0a7c7")
+	)
+	(junction
 		(at 130.81 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36c0b46f-fcef-4c70-95d4-829cb6ba67da")
 	)
 	(junction
-		(at 139.7 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a0b548d-9dea-43eb-bf8a-3587aed6344a")
-	)
-	(junction
 		(at 115.57 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "588042dc-ae90-423d-90fb-96b749ceedef")
+	)
+	(junction
+		(at 138.43 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ac2b674-48e8-4833-b948-24d34c8d3764")
+	)
+	(junction
+		(at 165.1 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4121d2d-49bd-4dd1-8928-b641c5f4fc40")
 	)
 	(junction
 		(at 121.92 91.44)
@@ -1164,10 +1170,10 @@
 		(uuid "c0bdecff-329f-4dc2-b81b-25d217e3f268")
 	)
 	(junction
-		(at 165.1 99.06)
+		(at 142.24 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e93caf29-eaa9-4426-9d3e-ce1783768ff1")
+		(uuid "f22d5130-e543-4d73-bcfb-8ac561f6caa8")
 	)
 	(junction
 		(at 167.64 114.3)
@@ -1175,21 +1181,19 @@
 		(color 0 0 0 0)
 		(uuid "f3e1e53d-f51f-4a3e-8c3e-6bb3f191e03f")
 	)
+	(junction
+		(at 165.1 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f79a9639-4acc-489c-baac-66178ed52eec")
+	)
 	(no_connect
 		(at 147.32 104.14)
 		(uuid "444c55f9-3776-4016-a2d3-4427a11b53b1")
 	)
 	(no_connect
-		(at 147.32 101.6)
-		(uuid "784eb149-d3a8-4366-8c92-9988cdd70051")
-	)
-	(no_connect
 		(at 147.32 93.98)
 		(uuid "eefc970f-c302-4c8f-b6c9-18d6699545da")
-	)
-	(no_connect
-		(at 147.32 99.06)
-		(uuid "fab28ae3-ef86-4fb1-a861-089471c19b53")
 	)
 	(wire
 		(pts
@@ -1233,13 +1237,33 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 114.3) (xy 167.64 114.3)
+			(xy 144.78 99.06) (xy 144.78 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "259ad4bf-2374-4adb-bfe0-e1c49ebb23ac")
+		(uuid "1f98812f-4062-4854-ad5c-9d52fc6b2199")
+	)
+	(wire
+		(pts
+			(xy 147.32 101.6) (xy 142.24 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "252b6202-6c54-469c-8578-61c12fefd150")
+	)
+	(wire
+		(pts
+			(xy 142.24 91.44) (xy 147.32 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25f769f6-66f5-4ca5-8bf6-830c0e6c4b3f")
 	)
 	(wire
 		(pts
@@ -1253,7 +1277,17 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 88.9) (xy 165.1 91.44)
+			(xy 165.1 99.06) (xy 165.1 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31678cee-fd5d-4a44-ae02-cf56d4efb81f")
+	)
+	(wire
+		(pts
+			(xy 165.1 86.36) (xy 165.1 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1303,7 +1337,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 114.3) (xy 139.7 114.3)
+			(xy 130.81 114.3) (xy 138.43 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1330,6 +1364,26 @@
 			(type default)
 		)
 		(uuid "5b9da101-6a54-404a-a335-aab524e0a52b")
+	)
+	(wire
+		(pts
+			(xy 138.43 114.3) (xy 167.64 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60c906fd-fbc4-4566-8f8a-0a59357519bb")
+	)
+	(wire
+		(pts
+			(xy 147.32 99.06) (xy 144.78 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61492370-45ac-414d-9dbb-0845675cdd29")
 	)
 	(wire
 		(pts
@@ -1363,16 +1417,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 86.36) (xy 165.1 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "672c0f4c-f86b-416b-a844-3e2fb9a528f0")
-	)
-	(wire
-		(pts
 			(xy 147.32 86.36) (xy 130.81 86.36)
 		)
 		(stroke
@@ -1403,23 +1447,13 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 111.76) (xy 139.7 114.3)
+			(xy 138.43 111.76) (xy 138.43 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7c2b79e4-c56c-4c74-a115-f75765299ee6")
-	)
-	(wire
-		(pts
-			(xy 165.1 99.06) (xy 165.1 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c3860e8-5715-4e7a-bd8d-6a1788a0d978")
 	)
 	(wire
 		(pts
@@ -1473,7 +1507,17 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 96.52) (xy 139.7 96.52)
+			(xy 144.78 88.9) (xy 147.32 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab4ca056-0de2-4631-b84c-389e92d7857e")
+	)
+	(wire
+		(pts
+			(xy 147.32 96.52) (xy 138.43 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1533,7 +1577,17 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 91.44) (xy 147.32 91.44)
+			(xy 142.24 101.6) (xy 142.24 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1af6f38-55e2-4047-b4c6-6210634e76a7")
+	)
+	(wire
+		(pts
+			(xy 121.92 91.44) (xy 142.24 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1543,7 +1597,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 96.52) (xy 139.7 104.14)
+			(xy 165.1 88.9) (xy 165.1 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0cc7f05-93f1-4f93-8772-b11143815674")
+	)
+	(wire
+		(pts
+			(xy 138.43 96.52) (xy 138.43 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1553,7 +1617,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 88.9) (xy 147.32 88.9)
+			(xy 115.57 88.9) (xy 144.78 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1647,116 +1711,6 @@
 			(project "mcu_main"
 				(path "/8c1e5247-e001-4f3c-b236-a22b9c821843/832b2f07-429b-4c98-b10e-bc5206aa930b"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom_symbols:USB_C_connector_C165948")
-		(at 156.21 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a5142b1-c87d-4b16-82ed-944bbe628580")
-		(property "Reference" "U2"
-			(at 156.21 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_connector"
-			(at 156.21 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
-			(at 156.21 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410010003_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf"
-			(at 156.21 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 156.21 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "B4"
-			(uuid "6f94e79f-e97e-49c2-8ff0-c1ed40bf4054")
-		)
-		(pin "A7"
-			(uuid "06d8fbd8-efb3-4068-94c4-1bf98912977c")
-		)
-		(pin "A12"
-			(uuid "9e6a42f5-b1bf-4a8e-b5a9-19c9c4e3e9f5")
-		)
-		(pin "A5"
-			(uuid "4be3ecab-ee4b-450b-9954-8249ace42e8f")
-		)
-		(pin "A6"
-			(uuid "f56edee9-2afa-4b73-bd42-9b8c98dbb783")
-		)
-		(pin "B6"
-			(uuid "3afdaeeb-e5ee-4d63-90aa-3e3d8451bd5f")
-		)
-		(pin "B7"
-			(uuid "01e11b29-e621-4390-a749-1194692dab7e")
-		)
-		(pin "A4\n"
-			(uuid "dfbea748-8e5c-4efa-bb4b-6666c795a95e")
-		)
-		(pin "A9"
-			(uuid "4f450f95-c41a-4ede-b315-b67e70134b95")
-		)
-		(pin "B12"
-			(uuid "f4e4968b-e104-45b6-925a-a40030507703")
-		)
-		(pin "B1"
-			(uuid "21bbf3b7-4fa2-4f0e-a7be-ccc4a983df94")
-		)
-		(pin "A8"
-			(uuid "aeb36987-ba67-49ad-b18b-579d6bb02834")
-		)
-		(pin "B5"
-			(uuid "24adf929-3a3d-4199-ae0d-ec420603e674")
-		)
-		(pin "B8"
-			(uuid "b92aea00-a8e2-42e7-a68c-e00bf1db5491")
-		)
-		(pin "B9"
-			(uuid "025c2796-f22d-402e-9a73-15cbd8d46bb0")
-		)
-		(pin "A1"
-			(uuid "13c21003-937f-41df-954f-5b9bd92bedce")
-		)
-		(instances
-			(project "mcu_main"
-				(path "/8c1e5247-e001-4f3c-b236-a22b9c821843/832b2f07-429b-4c98-b10e-bc5206aa930b"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2036,7 +1990,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.7 107.95 0)
+		(at 138.43 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2044,7 +1998,7 @@
 		(dnp no)
 		(uuid "7d850b39-ed19-4e94-86fb-1fec51d02757")
 		(property "Reference" "R2"
-			(at 140.716 106.934 0)
+			(at 139.446 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2053,7 +2007,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 141.224 109.22 0)
+			(at 139.954 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2062,7 +2016,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 137.922 107.95 90)
+			(at 136.652 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2071,7 +2025,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 107.95 0)
+			(at 138.43 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2080,7 +2034,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 139.7 107.95 0)
+			(at 138.43 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2098,6 +2052,117 @@
 			(project "mcu_main"
 				(path "/8c1e5247-e001-4f3c-b236-a22b9c821843/832b2f07-429b-4c98-b10e-bc5206aa930b"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "USB_C_connector_C165948_1")
+		(lib_id "Custom_symbols:USB_C_connector_C165948")
+		(at 156.21 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a091fba8-b2d7-4da6-a1e9-0e37ba69a8b2")
+		(property "Reference" "U2"
+			(at 156.21 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_connector"
+			(at 156.21 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401948E412A"
+			(at 156.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410010003_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf"
+			(at 156.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A4"
+			(uuid "d5ebb125-5e70-46bf-aedc-3ee88b32518a")
+		)
+		(pin "B1"
+			(uuid "4989a219-91c6-4b4a-a54b-bf4c18c636c9")
+		)
+		(pin "A5"
+			(uuid "569bffbf-7ac6-48f6-a37d-9bbf9663127c")
+		)
+		(pin "A1"
+			(uuid "8ffb7de0-ee88-4b32-8d62-94ac0fda8fba")
+		)
+		(pin "A8"
+			(uuid "f7f8e0e9-a8aa-4039-924c-f29b72487632")
+		)
+		(pin "B12"
+			(uuid "f4900f09-313e-43cf-b7ff-d3dd9c3b44c2")
+		)
+		(pin "B7"
+			(uuid "c089e463-36d3-486a-821e-5469403fa782")
+		)
+		(pin "B9"
+			(uuid "10f1de68-5db8-41ac-9f67-10b1d975192d")
+		)
+		(pin "A6"
+			(uuid "f43c19a8-1d50-4fda-8c2e-9c72356b5605")
+		)
+		(pin "A12"
+			(uuid "25243751-0aa7-4cf2-a085-b28cf9af9abe")
+		)
+		(pin "B8"
+			(uuid "ae9303ef-14dc-4b9c-870a-3411bbbf8af9")
+		)
+		(pin "A7"
+			(uuid "148903ad-c0f0-4a93-94e8-63906db9068b")
+		)
+		(pin "B4"
+			(uuid "4ca2c61f-bb32-4f41-aa7a-564616c58845")
+		)
+		(pin "B5"
+			(uuid "c1318458-821f-4e16-af92-0f778b7c841f")
+		)
+		(pin "A9"
+			(uuid "cf4a21a9-c2d9-47ee-b576-ee5538f60641")
+		)
+		(pin "B6"
+			(uuid "1cf87d45-99c1-41f8-b238-7d138857c0df")
+		)
+		(instances
+			(project ""
+				(path "/8c1e5247-e001-4f3c-b236-a22b9c821843/832b2f07-429b-4c98-b10e-bc5206aa930b"
+					(reference "U2")
 					(unit 1)
 				)
 			)
