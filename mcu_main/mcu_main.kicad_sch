@@ -3503,16 +3503,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 166.37) (xy 234.95 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "124501dd-2e6f-47f3-939b-8356e4141d9b")
-	)
-	(wire
-		(pts
 			(xy 208.28 189.23) (xy 215.9 189.23)
 		)
 		(stroke
@@ -4193,6 +4183,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 168.91) (xy 234.95 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4457ba9-5fbd-495a-92a7-83df69734635")
+	)
+	(wire
+		(pts
 			(xy 255.27 189.23) (xy 262.89 189.23)
 		)
 		(stroke
@@ -4393,6 +4393,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 166.37) (xy 234.95 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e384cb50-0305-4ed6-9584-b146a3c6e538")
+	)
+	(wire
+		(pts
 			(xy 255.27 198.12) (xy 255.27 189.23)
 		)
 		(stroke
@@ -4510,16 +4520,6 @@
 			(type default)
 		)
 		(uuid "f5c3d488-3d1a-45de-a99a-f9e3bda5ffe1")
-	)
-	(wire
-		(pts
-			(xy 236.22 168.91) (xy 234.95 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6455958-3790-41f0-8b61-7850cbab9134")
 	)
 	(wire
 		(pts
@@ -5473,7 +5473,7 @@
 	)
 	(global_label "TX_D0"
 		(shape input)
-		(at 236.22 166.37 0)
+		(at 236.22 168.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5483,7 +5483,7 @@
 		)
 		(uuid "a3fa89c5-7630-463b-8e03-85b16700b177")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 244.8294 166.37 0)
+			(at 244.8294 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,7 +5737,7 @@
 	)
 	(global_label "RX_D0"
 		(shape input)
-		(at 236.22 168.91 0)
+		(at 236.22 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5747,7 +5747,7 @@
 		)
 		(uuid "d6fef12b-340f-4be2-bc4e-38a9761a9ee7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.1318 168.91 0)
+			(at 245.1318 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6002,36 +6002,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 134.6351 119.3433) (xy 118.1251 119.3433) (xy 118.1268 106.7591) (xy 134.6368 106.7591)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 02a148f2-7a8d-4740-83f4-18e89b247c8d)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 241.3 176.53) (xy 241.3 209.55) (xy 285.75 209.55) (xy 285.75 176.53)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 248a5e05-421c-41a8-844f-519f7cda01e4)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 58.42 161.29) (xy 58.42 209.55) (xy 139.7 209.55) (xy 139.7 161.29)
 			)
 			(stroke
@@ -6041,7 +6011,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 8b67f8fb-f91d-4126-a07b-68c18ae767ce)
+			(uuid 6c3b1e9e-ab5d-410d-b81e-e5fca3f224af)
 		)
 	)
 	(rule_area
@@ -6056,7 +6026,7 @@
 			(fill
 				(type none)
 			)
-			(uuid ced151ff-642c-4cd2-8f9b-e8d786ac2910)
+			(uuid 7920f2c6-2552-4925-94da-bcfac87ffa21)
 		)
 	)
 	(rule_area
@@ -6071,7 +6041,7 @@
 			(fill
 				(type none)
 			)
-			(uuid dcea3bda-9a07-48e4-8753-b8c0a60cf52d)
+			(uuid db5a06c3-e42a-4a73-97ad-2a24a50d8c00)
 		)
 	)
 	(rule_area
@@ -6086,7 +6056,37 @@
 			(fill
 				(type none)
 			)
-			(uuid ef8adb4c-7893-4745-95ba-b759f56d4637)
+			(uuid dc3f683f-f352-4392-a848-5cdde1182f29)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 241.3 176.53) (xy 241.3 209.55) (xy 285.75 209.55) (xy 285.75 176.53)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid ea53cfe9-b52b-4403-91f6-6461f8c86143)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 134.6351 119.3433) (xy 118.1251 119.3433) (xy 118.1268 106.7591) (xy 134.6368 106.7591)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid fc85388c-3000-4e3f-89b1-d19b2121dbc6)
 		)
 	)
 	(symbol
@@ -7150,7 +7150,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6893bf9-dc9a-45da-9167-1a465488695b")
-		(property "Reference" "SW1"
+		(property "Reference" "BOOT1"
 			(at 220.98 179.07 0)
 			(effects
 				(font
@@ -7208,7 +7208,7 @@
 		(instances
 			(project "mcu_main"
 				(path "/8c1e5247-e001-4f3c-b236-a22b9c821843"
-					(reference "SW1")
+					(reference "BOOT1")
 					(unit 1)
 				)
 			)
@@ -7944,7 +7944,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee682c9e-fcb1-41d9-bcbf-ae6930a591e8")
-		(property "Reference" "SW2"
+		(property "Reference" "RESET1"
 			(at 267.97 179.07 0)
 			(effects
 				(font
@@ -8002,7 +8002,7 @@
 		(instances
 			(project "mcu_main"
 				(path "/8c1e5247-e001-4f3c-b236-a22b9c821843"
-					(reference "SW2")
+					(reference "RESET1")
 					(unit 1)
 				)
 			)
