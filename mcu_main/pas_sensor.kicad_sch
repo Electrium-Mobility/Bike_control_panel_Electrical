@@ -650,16 +650,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 104.14) (xy 129.54 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5521df96-4a0f-493e-a988-1b5882b00622")
-	)
-	(wire
-		(pts
 			(xy 129.54 96.52) (xy 111.76 96.52)
 		)
 		(stroke
@@ -670,13 +660,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 101.6) (xy 129.54 101.6)
+			(xy 128.27 104.14) (xy 129.54 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63b84a7e-4af9-43c6-a13a-2e69f869112a")
+		(uuid "75f221fd-1012-4e66-93a2-98cdc0d5074c")
 	)
 	(wire
 		(pts
@@ -687,6 +677,16 @@
 			(type default)
 		)
 		(uuid "a87e68a5-02ae-4aa9-8273-2f383da90afb")
+	)
+	(wire
+		(pts
+			(xy 128.27 101.6) (xy 129.54 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbf589b9-a226-41a9-b61b-cd3f72fb696e")
 	)
 	(wire
 		(pts
@@ -710,7 +710,7 @@
 	)
 	(hierarchical_label "speed_sig_1"
 		(shape input)
-		(at 128.27 104.14 180)
+		(at 128.27 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -732,7 +732,7 @@
 	)
 	(hierarchical_label "speed_sig_2"
 		(shape input)
-		(at 128.27 101.6 180)
+		(at 128.27 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
