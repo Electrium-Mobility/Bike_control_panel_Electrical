@@ -6259,7 +6259,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 58.42 161.29) (xy 58.42 209.55) (xy 139.7 209.55) (xy 139.7 161.29)
+				(xy 195.58 176.53) (xy 195.58 209.55) (xy 238.76 209.55) (xy 238.76 176.53)
 			)
 			(stroke
 				(width 0)
@@ -6268,22 +6268,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 33d9e3af-fcef-4d84-850f-cd300318f1ee)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 134.6351 119.3433) (xy 118.1251 119.3433) (xy 118.1268 106.7591) (xy 134.6368 106.7591)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 6d5a5284-5848-497a-8611-cdbfa609ce64)
+			(uuid 0d693385-c6eb-43eb-96b9-57b50fc51d41)
 		)
 	)
 	(rule_area
@@ -6298,13 +6283,13 @@
 			(fill
 				(type none)
 			)
-			(uuid 9485f9f4-72e8-456c-a290-824df37a6e8d)
+			(uuid 29bee23a-eaef-477c-8fde-b474de1e9a04)
 		)
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 129.1488 40.6278) (xy 129.1489 71.1078) (xy 147.32 71.1199) (xy 147.3199 40.6399)
+				(xy 58.42 161.29) (xy 58.42 209.55) (xy 139.7 209.55) (xy 139.7 161.29)
 			)
 			(stroke
 				(width 0)
@@ -6313,22 +6298,7 @@
 			(fill
 				(type none)
 			)
-			(uuid af84ebba-86f9-4474-8bef-4a61bf108886)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 195.58 176.53) (xy 195.58 209.55) (xy 238.76 209.55) (xy 238.76 176.53)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid df38892d-f142-4c2a-81dc-5ba73ff83471)
+			(uuid 4fdf2fdf-690e-47de-ae8d-184c5a5d9a52)
 		)
 	)
 	(rule_area
@@ -6343,7 +6313,37 @@
 			(fill
 				(type none)
 			)
-			(uuid e3e9fa73-09f6-4377-b117-01438079e2b5)
+			(uuid 71f06e9d-919f-43a2-ab82-dd0116ed8ab4)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 129.1488 40.6278) (xy 129.1489 71.1078) (xy 147.32 71.1199) (xy 147.3199 40.6399)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 78933049-3ecf-4203-b1a4-c032487cacb3)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 134.6351 119.3433) (xy 118.1251 119.3433) (xy 118.1268 106.7591) (xy 134.6368 106.7591)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 87f3a60f-ab71-4c96-8151-81fc02e16746)
 		)
 	)
 	(symbol
@@ -7541,7 +7541,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6893bf9-dc9a-45da-9167-1a465488695b")
-		(property "Reference" "BOOT1"
+		(property "Reference" "sw1"
 			(at 220.98 179.07 0)
 			(effects
 				(font
@@ -7599,7 +7599,7 @@
 		(instances
 			(project "mcu_main"
 				(path "/8c1e5247-e001-4f3c-b236-a22b9c821843"
-					(reference "BOOT1")
+					(reference "sw1")
 					(unit 1)
 				)
 			)
@@ -8275,7 +8275,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF 16V"
+		(property "Value" "1uF"
 			(at 137.16 61.976 0)
 			(effects
 				(font
@@ -8335,7 +8335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee682c9e-fcb1-41d9-bcbf-ae6930a591e8")
-		(property "Reference" "RESET1"
+		(property "Reference" "sw2"
 			(at 267.97 179.07 0)
 			(effects
 				(font
@@ -8393,7 +8393,7 @@
 		(instances
 			(project "mcu_main"
 				(path "/8c1e5247-e001-4f3c-b236-a22b9c821843"
-					(reference "RESET1")
+					(reference "sw2")
 					(unit 1)
 				)
 			)
