@@ -19968,48 +19968,5 @@
 			)
 		)
 	)
-	(generated
-		(uuid "e4e6e7ea-5a69-4009-8302-ab2e766cdc8c")
-		(type tuning_pattern)
-		(name "Tuning Pattern")
-		(layer "F.Cu")
-		(base_line
-			(pts
-				(xy 177.763773 84.605229) (xy 177.763773 86.08633)
-			)
-		)
-		(corner_radius_percent 80)
-		(end
-			(xy 177.763773 86.08633)
-		)
-		(initial_side "left")
-		(last_diff_pair_gap 0.18)
-		(last_netname "/ESP USB section/D+")
-		(last_status "tuned")
-		(last_track_width 0.2)
-		(last_tuning "10.0224 mm (tuned)")
-		(max_amplitude 0.57)
-		(min_amplitude 0.2)
-		(min_spacing 0.65)
-		(origin
-			(xy 177.763773 84.605229)
-		)
-		(override_custom_rules no)
-		(rounded yes)
-		(single_sided no)
-		(target_length 1000000)
-		(target_length_max 1000000)
-		(target_length_min 0)
-		(target_skew 0)
-		(target_skew_max 0.1)
-		(target_skew_min -0.1)
-		(tuning_mode "single")
-		(members "066541a9-0f39-403d-a60a-e0cfa59650a6" "1633e46e-521b-4a1b-b7b7-6dcb25b3424f"
-			"34849b8f-1204-4f0a-8472-50b94d7b00b4" "469a8342-faad-4f0d-8f6b-ab4a2509cc70"
-			"708bde3f-7ff2-41ab-bb8e-fad83b93da93" "8ed08741-399e-4f29-b9af-b39cf303c07b"
-			"bd12bd3d-4ec9-4921-b238-0de4f7d0d664" "daf4f081-9f9c-4018-a78a-b23a5488d30d"
-			"f535e0f8-762a-45bb-9e01-ea0f0af422b1"
-		)
-	)
 	(embedded_fonts no)
 )
