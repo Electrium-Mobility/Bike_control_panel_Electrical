@@ -2280,7 +2280,7 @@
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "U3"
-			(at 3.712879 4.392656 0)
+			(at 2.047196 -4.720139 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "be2a51bb-c7b3-4073-ae66-453cd59bd866")
