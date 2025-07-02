@@ -1,43 +1,7 @@
 ** Drc report for mcu_main.kicad_pcb **
-** Created on 2025-06-23T13:11:30-0400 **
+** Created on 2025-07-02T15:57:41-0400 **
 
-** Found 13 DRC violations **
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
-    Rule: board setup constraints; error
-    @(188.5000 mm, 97.2200 mm): PTH pad 41 [GND] of U1
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
-    Rule: board setup constraints; error
-    @(187.1000 mm, 97.2200 mm): PTH pad 41 [GND] of U1
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
-    Rule: board setup constraints; error
-    @(189.2000 mm, 97.9200 mm): PTH pad 41 [GND] of U1
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
-    Rule: board setup constraints; error
-    @(187.8000 mm, 97.9200 mm): PTH pad 41 [GND] of U1
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
-    Rule: board setup constraints; error
-    @(186.4000 mm, 97.9200 mm): PTH pad 41 [GND] of U1
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
-    Rule: board setup constraints; error
-    @(188.5000 mm, 98.6200 mm): PTH pad 41 [GND] of U1
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
-    Rule: board setup constraints; error
-    @(187.1000 mm, 98.6200 mm): PTH pad 41 [GND] of U1
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
-    Rule: board setup constraints; error
-    @(189.2000 mm, 99.3200 mm): PTH pad 41 [GND] of U1
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
-    Rule: board setup constraints; error
-    @(187.8000 mm, 99.3200 mm): PTH pad 41 [GND] of U1
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
-    Rule: board setup constraints; error
-    @(186.4000 mm, 99.3200 mm): PTH pad 41 [GND] of U1
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
-    Rule: board setup constraints; error
-    @(188.5000 mm, 100.0200 mm): PTH pad 41 [GND] of U1
-[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
-    Rule: board setup constraints; error
-    @(187.1000 mm, 100.0200 mm): PTH pad 41 [GND] of U1
+** Found 1 DRC violations **
 [lib_footprint_mismatch]: Footprint 'ESP32-S3-WROOM-1' does not match copy in library 'RF_Module'.
     Local override; warning
     @(190.2600 mm, 100.1200 mm): Footprint U1
